@@ -1,0 +1,32 @@
+body{ background-color: black; color: white; }
+
+#header{ font-size: 11px; font-weight: bold; overflow: hidden; }
+
+#header .logo { text-align: center; border-top: 1px solid gray; padding-top: 30px; border-bottom: 1px solid gray; padding-bottom: 30px; margin-bottom: 5px;}
+
+.person_list{ border-bottom: 1px solid gray; overflow:hidden; padding-bottom: 5px;}
+
+.person .play_what{    position: relative; }
+
+.person .photo {  position: absolute; float: left; z-index: 50; display: none;}
+
+.info { padding-top: 19px; border-bottom: 1px solid gray; overflow:hidden; padding-bottom: 5px; }
+
+.social_network ul { list-style-type: none; margin-top: 19px; }
+
+.social_network ul li {  margin-left: 0px; }
+
+.info_contacts { color: #7c7c7c; margin-top: 19px; }
+
+.list_influencies { margin-top: 19px; }
+
+#footer { margin-top: 5px; }
+
+.social_network ul li .image_pb { position: relative; float: left;}
+
+.social_network ul li .image_color { float: left; position: absolute; display: none; top: 0px; left: 0px;}
+
+ul.info_schedule { list-style: none; color: #7C7C7C; text-align: center; }
+
+ul.info_schedule li { margin-left: 0px; overflow: hidden; border-bottom: 1px solid gray; }
+

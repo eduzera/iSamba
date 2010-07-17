@@ -1,0 +1,7 @@
+*.log
+*.rb~
+*.*~
+*.sqlite3
+schema.rb
+public/uploads/*
+._*
