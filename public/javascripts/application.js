@@ -2,21 +2,21 @@ $(document).ready(function() {
 
     $('.person').mouseover(function() {
 
-        $(this).find('.photo').fadeIn(500);
+        $(this).find('.photo').stop(false,true).fadeIn(500);
     });
 
     $('.person').mouseleave(function() {
-        $(this).find('.photo').fadeOut(500);
+        $(this).find('.photo').stop(false,true).fadeOut(500);
     });
 
     $('.social_network ul li').mouseover(function() {
 
-        $(this).find('.image_color').fadeIn(500);
+        $(this).find('.image_color').stop(false,true).fadeIn(500);
     });
 
     $('.social_network ul li').mouseleave(function() {
 
-        $(this).find('.image_color').fadeOut(500);
+        $(this).find('.image_color').stop(false,true).fadeOut(500);
     });
 });
 
