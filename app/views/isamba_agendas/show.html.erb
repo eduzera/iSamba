@@ -1,0 +1,20 @@
+<% title "Isamba Agendas" %>
+
+<p>
+  <strong>Street:</strong>
+  <%=h @isamba_agendas.street %>
+</p>
+<p>
+  <strong>Data:</strong>
+  <%=h @isamba_agendas.data %>
+</p>
+<p>
+  <strong>Time:</strong>
+  <%=h @isamba_agendas.time %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_isamba_agenda_path(@isamba_agendas) %> |
+  <%= link_to "Destroy", @isamba_agendas, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", isamba_agendas_path %>
+</p>

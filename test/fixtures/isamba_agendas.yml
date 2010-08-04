@@ -1,0 +1,9 @@
+one:
+  street: MyString
+  data: 2010-08-03
+  time: MyString
+
+two:
+  street: MyString
+  data: 2010-08-03
+  time: MyString

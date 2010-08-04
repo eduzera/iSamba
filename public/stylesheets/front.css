@@ -31,5 +31,17 @@ body{ background-color: black; color: white; text-align: center; }
 
 ul.info_schedule { list-style: none; color: #7C7C7C; text-align: center; }
 
-ul.info_schedule li { margin-left: 0px; overflow: hidden; border-bottom: 1px solid gray; }
+ul.info_schedule li { margin-left: 0px; overflow: hidden; border-bottom: 1px solid gray; text-align: left; margin-bottom: 16px; margin-top: 8px; }
+
+table { border-bottom: 1px solid gray; }
+
+table a { color: white; }
+
+table th { color: #7C7C7C; padding-bottom: 12px; }
+
+table td { padding-bottom: 6px; }
+
+a { color: white; }
+
+#content form { border-bottom: 1px solid gray; margin-bottom: 6px; }
 

@@ -30,12 +30,17 @@
 		
 		.grid_4.alpha.omega
 			%ul.info_schedule
-				-5.times do
+				-@agenda.each do |agenda|
 					%li
 						.grid_1.alpha
-							%strong 24 jul
+							%strong 
+								=agenda.data.strftime("%d/%m")
 						.grid_3.omega
-							bar liberdade
+							=agenda.field_show
+							%br
+							=agenda.street
+							%br
+							=agenda.time
 
 	.grid_4
 		= image_tag "influenciasMusicais.png"

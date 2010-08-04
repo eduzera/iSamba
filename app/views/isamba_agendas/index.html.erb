@@ -1,0 +1,22 @@
+<% title "iSamba - Agenda" %>
+
+<table class="grid_16 alpha">
+  <tr style="text-align: left;">
+	<th class="grid_4">Local</th>
+    <th class="grid_4">Endereco</th>
+    <th class="grid_2">Data</th>
+    <th class="grid_2">Hora	</th>
+  </tr>
+  <% for isamba_agendas in @isamba_agendas %>
+    <tr>
+      <td class="grid_4"><%=h isamba_agendas.field_show %></td>
+	  <td class="grid_4"><%=h isamba_agendas.street %></td>
+      <td class="grid_2"><%=h isamba_agendas.data.strftime("%d/%m/%Y") %></td>
+      <td class="grid_2"><%=h isamba_agendas.time %></td>
+      <td class="grid_1"><%= link_to "Editar", edit_isamba_agenda_path(isamba_agendas) %></td>
+      <td class="grid_1"><%= link_to "Deletar", isamba_agendas, :confirm => 'Certeza disso?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "Add Novo Compromisso", new_isamba_agenda_path %></p>

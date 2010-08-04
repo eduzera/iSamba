@@ -1,0 +1,2 @@
+module IsambaAgendasHelper
+end

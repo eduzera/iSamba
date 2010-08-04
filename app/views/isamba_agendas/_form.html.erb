@@ -1,0 +1,20 @@
+<% form_for @isamba_agendas do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label "Local do Show" %><br />
+    <%= f.text_field :field_show %>
+  </p>
+  <p>
+    <%= f.label "Endereco" %><br />
+    <%= f.text_field :street %>
+  </p>
+  <p>
+    <%= f.label "Data" %><br />
+    <%= f.date_select :data %>
+  </p>
+  <p>
+    <%= f.label "Hora" %><br />
+    <%= f.text_field :time %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>
