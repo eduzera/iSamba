@@ -1,7 +1,8 @@
 %html{html_attrs}
 	%head
+		%meta{:content => "iSamba. Grupo de samba e pagode de São paulo. Entre em contato: contato@grupoisamba.com.br para show. Tocamos:(Exaltasamba, Revelação, Zeca Pagodinho, Turma do Pagode, Molejo, Samprazer, Fundo de Quinta, Dudu Nobre, Art Popular, Pixote entre outros.)", :name => "description"}/
 		%title
-			= h(yield(:title) || "iSamba")
+			= h(yield(:title) || "Grupo iSamba | Samba e Pagode")
 		%meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}/
 		= stylesheet_link_tag "reset", "text", "grid","front"
 		= javascript_include_tag :defaults

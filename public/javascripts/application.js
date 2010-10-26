@@ -18,5 +18,17 @@ $(document).ready(function() {
 
         $(this).find('.image_color').stop(false,true).fadeOut(500);
     });
+
+	$('.social_network ul li').click(function(){
+		
+		if(navigator.userAgent.search("MSIE") != -1){
+			
+			var url = $(this).find('a').attr('href');
+		
+			window.open(url);
+			
+		}
+	});
+
 });
 

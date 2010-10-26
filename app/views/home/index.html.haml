@@ -16,8 +16,8 @@
 			.grid_1.alpha
 				%strong email:
 			.grid_3.omega
-				%p
-					hannaldinho@hotmail.com
+				%p{:style => "font-size:12px;"}
+					contato@grupoisamba.com.br
 
 			.grid_1.alpha
 				%strong telefone:
@@ -43,31 +43,31 @@
 							=agenda.time
 
 	.grid_4
-		= image_tag "influenciasMusicais.png"
+		= image_tag "influenciasMusicais.png", :alt => "oque gostamos de tocar."
 
 		.list_influencies
-			=image_tag "listaInfluencias.png"
+			=image_tag "listaInfluencias.png", :alt => "grupos que gostamos"
 
 	.grid_4
-		= image_tag "redesSociais.png"
+		= image_tag "redesSociais.png",:alt => "ache o iSamba na sua rede social preferida!"
 
 		.social_network
 			%ul
 				%li
 					%a{ :href => "http://twitter.com/grupoisamba", :target => "_blank" }
 						.grid_3.alpha.omega
-							=image_tag "twitterLogoPB.png" , :class => "image_pb"
-							=image_tag "twitterLogoColor.png" , :class => "image_color"
+							=image_tag "twitterLogoPB.png" , :class => "image_pb",			:alt => "iSamba no twitter!"
+							=image_tag "twitterLogoColor.png" , :class => "image_color",	:alt => "iSamba no twitter!"
 
 				%li
 					%a{ :href => "http://www.orkut.com.br/Main#Community?cmm=95190430", :target => "_blank" }
 						.grid_3.alpha.omega
-							=image_tag "orkutLogoPB.png" , :class => "image_pb"
-							=image_tag "orkutLogoColor.png" , :class => "image_color"
+							=image_tag "orkutLogoPB.png" , :class => "image_pb",		:alt => "orkut do iSamba"
+							=image_tag "orkutLogoColor.png" , :class => "image_color",	:alt => "orkut do iSamba"
 
 				%li
 					%a{ :href => "http://www.facebook.com/home.php?#!/group.php?gid=139683982716486", :target => "_blank" }
 						.grid_3.alpha.omega
-							=image_tag "facebooklogoPB.png" , :class => "image_pb"
-							=image_tag "facebooklogoColor.png" , :class => "image_color"
+							=image_tag "facebooklogoPB.png" , :class => "image_pb",			:alt => "facebook do iSamba"
+							=image_tag "facebooklogoColor.png" , :class => "image_color",	:alt => "facebook do iSamba"
 
